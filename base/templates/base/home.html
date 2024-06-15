@@ -1,0 +1,189 @@
+{%load static %}
+
+
+<!--
+<h3>hello world!</h3>
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Akash Sivakumar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        #profile-wrapper {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body border-danger" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/akash.jpg' %}">
+                    <hr>
+                    <h4>Hi, I'm Akash</h4>
+                    <p>My career began with a curiosity for coding as a backend developer. Although I hold an M.Com degree.</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body border-info">
+                    <h4>ABOUT ME</h4>
+                    <hr>
+                    <p>I think I started taking coding seriously a few weeks back. Since then, it has become my hobby(This portfolio is my first project as a Python developer).</p>
+                    <p>My bachelor's degree is in B.Com (cooperative management), not because I was interested in it, but because my college staff told me it was easy to finish. After my first semester, COVID came, and I finished my college without learning much. Again, I applied for a master's in the same course because of the friendly staff.</p>
+                    <p>Even after finishing my master's, I didn't see my career in that course, so I chose to become a Python backend developer because my brother suggested it, and it's fun.</p>
+                    <a href="https://www.instagram.com/echo._akash" target="_blank" class="btn btn-outline-primary">
+                        <i class="fab fa-instagram"></i> Follow me on Instagram
+                    </a>
+                    <a href="https://www.linkedin.com/akash-sivakumar-5394b3215" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+        <br>
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Sivakumar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .carousel-inner img {
+            max-height: 400px; /* Adjust the height as needed */
+            object-fit: contain; /* Ensure the image scales properly within the container */
+        }
+
+        .carousel-caption {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Background with opacity */
+            color: white;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body border-primary">
+                    <h4>MY CERTIFICATIONS</h4>
+                       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"> 
+                        <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                    </div>
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="{% static 'images/excel.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="{% static 'images/G-AI.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="{% static 'images/py-project.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="{% static 'images/py-developer.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="{% static 'images/webscrapping.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="{% static 'images/aws.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="{% static 'images/py-django.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add Bootstrap JavaScript and its dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybbyB6S+eA1X64K+GVhV6AzOh04D6/wz93pkeOjzjEJe5y5gK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-Qge69Fgj5J6c7L/9rdkSyvTc20wpSb6IcKAHrUGx6I5K5j4Bv9x0bVUUOuSdfO/C" crossorigin="anonymous"></script>
+</body>
+</html>
+
+        <br>  
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+            
+                    <h4>HOBBIES</h4>
+                <hr>
+                <p> &nbsp; &nbsp;  Playing Chess</p>
+                <p> &nbsp; &nbsp;  Learning New Things</p> 
+                <p> &nbsp; &nbsp;  Playing Cricket</p>
+                <p> &nbsp; &nbsp;  Internet Surfing</p>
+                <p> &nbsp; &nbsp;   Listening to music</p>
+                
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h4>SKILLS</h4>
+                <hr>
+                <P>&nbsp; &nbsp; PYTHON</P>
+                <P>&nbsp; &nbsp; MS OFFICE</P>
+                <P>&nbsp; &nbsp; TYPING</P>
+                <P>&nbsp; &nbsp; DATA ANALYTICS</P>
+               </div>
+            </div>
+        </div>
+        <br>   
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body border-primary">
+                <h4>INTRESTED IN</h4>
+            <hr>
+            <p>LEARNING THE THINGS THAT I DONT KNOW</p>
+            <P>PLAYING ALL KIND OF SPORTS</P>
+            <P>CODING</P>
+            <p>AI</p>
+            <p>BACKEND COMPUTER WORK</p>        
+            </div>
+            </div>
+            <div class="col-md-6">
+              
+                <div class="card card-body">  <h4 class="thanks" >THANKS FOR VISITING</h4></div>
+            </div>
+        </div>
+        <br>   
+
+        
+    </div>
+
+</body>
+</html>
