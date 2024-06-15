@@ -1,0 +1,47 @@
+#profile-wrapper{
+    text-align: center;
+}
+
+#profile-pic{
+    width:150px;
+    height: 150px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-item {
+  transition: transform .3s ease;
+}
+
+.carousel-item.active {
+  transform: translateX(0); /* Adjust as needed */
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-right,
+.carousel-item-left {z
+  transform: translateX(0); /* Adjust as needed */ 
+}
+
+.card {
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 8px 10px 10px rgba(179, 35, 207, 0.2); /* Example shadow effect */
+}
+
+.thanks{
+    font-size: 24px; /* Adjust as needed */
+    text-align: center; /* Center the text */
+    color: #ce4646; /* Text color */
+    text-shadow: 0 0 10px rgba(210, 245, 15, 0.8); /* Glow effect */
+    transition: text-shadow 0.3s ease;
+}
+
+.thanks:hover {
+    text-shadow: 0 0 20px rgb(116, 231, 71); /* Increase glow on hover */
+}
+
