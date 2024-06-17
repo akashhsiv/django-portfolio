@@ -1,17 +1,17 @@
-#profile-wrapper{
-    text-align: center;
+#profile-wrapper {
+  text-align: center;
 }
 
-#profile-pic{
-    width:150px;
-    height: 150px;
-    border-radius: 6px;
-    margin-left: auto;
-    margin-right: auto;
+#profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-item {
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
 }
 
 .carousel-item.active {
@@ -22,32 +22,38 @@
 .carousel-item-prev,
 .carousel-item-right,
 .carousel-item-left {
-  transform: translateX(0); /* Adjust as needed */ 
+  transform: translateX(0); /* Adjust as needed */
 }
 
 .card {
-    transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-    box-shadow: 8px 10px 10px rgba(179, 35, 207, 0.2); /* Example shadow effect */
+  box-shadow: 8px 10px 10px rgba(179, 35, 207, 0.2); /* Example shadow effect */
 }
 
-.thanks{
-    font-size: 24px; /* Adjust as needed */
-    text-align: center; /* Center the text */
-    color: #ce4646; /* Text color */
-    text-shadow: 0 0 10px rgba(210, 245, 15, 0.8); /* Glow effect */
-    transition: text-shadow 0.3s ease;
+.thanks {
+  font-size: 24px; /* Adjust as needed */
+  text-align: center; /* Center the text */
+  color: #ce4646; /* Text color */
+  text-shadow: 0 0 10px rgba(210, 245, 15, 0.8); /* Glow effect */
+  transition: text-shadow 0.3s ease;
 }
 
 .thanks:hover {
-    text-shadow: 0 0 20px rgb(116, 231, 71); /* Increase glow on hover */
+  text-shadow: 0 0 20px rgb(116, 231, 71); /* Increase glow on hover */
 }
-h4 {font-family: "PT Serif", serif;
-
+p {
+  font-family: "PT Serif", serif;
 }
-p {font-family: "Knewave", system-ui;
-
+h4 {
+  font-family: "Timmana", sans-serif;
 }
-
+li {
+  font-family: "PT Serif", serif;
+}
+strong {
+  font-family: "Timmana", sans-serif;
+  font-size: xx-large;
+}
