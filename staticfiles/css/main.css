@@ -21,7 +21,7 @@
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item-right,
-.carousel-item-left {z
+.carousel-item-left {
   transform: translateX(0); /* Adjust as needed */ 
 }
 
@@ -43,5 +43,11 @@
 
 .thanks:hover {
     text-shadow: 0 0 20px rgb(116, 231, 71); /* Increase glow on hover */
+}
+h4 {font-family: "PT Serif", serif;
+
+}
+p {font-family: "Knewave", system-ui;
+
 }
 
