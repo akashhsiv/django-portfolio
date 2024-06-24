@@ -50,12 +50,14 @@ p {
 }
 h4 {
   font-family: "Timmana", sans-serif;
+  font-size: xx-large;
+  font-stretch: extra-expanded;
 }
 li {
   font-family: "PT Serif", serif
 }
 strong {
   font-family: "Timmana", sans-serif;
-  font-size: xx-large;
+  font-size: large;
 }
 
