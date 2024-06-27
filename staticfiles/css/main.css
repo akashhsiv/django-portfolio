@@ -46,7 +46,7 @@
 }
 p {
   font-family: "PT Serif", serif;
-  font-size: x-large;
+  font-size: large;
 }
 h4 {
   font-family: "Timmana", sans-serif;
@@ -55,7 +55,8 @@ h4 {
   animation:glow-box 1.5s infinite ;
 }
 li {
-  font-family: "PT Serif", serif
+  font-family: "PT Serif", serif;
+  font-size: large;
 }
 strong {
   font-family: "Timmana", sans-serif;
@@ -67,9 +68,45 @@ ul {
 }
 h5{
   font-size: xx-large;
-  font-family: "Playwrite IS", cursive;
 }
 h6{
   font-size: larger;
   font-family: monospace;
+}
+
+h7{
+  font-size: medium;
+  
+  font-family: "Fira Code", monospace;;
+}
+
+h3 {
+  font-family: "Timmana", sans-serif;
+  font-size: xx-large;
+  font-stretch: extra-expanded;
+  color: rgb(39, 80, 6);
+}
+
+.end-credit {
+    text-align: center;
+    font-family: "Timmana", sans-serif;
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.end-credit:hover {
+    box-shadow: 0 0 20px 10px rgba(141, 43, 43, 0.5), 
+                0 0 20px 10px rgba(100, 158, 100, 0.5), 
+                0 0 20px 10px rgba(0, 0, 255, 0.5);
+    color: rgb(209, 72, 31);
+}
+
+h2.thanks {
+    font-family: "Timmana", sans-serif;
+    font-size: xx-large;
+    color: inherit; /* Inherit the color from parent */
 }
