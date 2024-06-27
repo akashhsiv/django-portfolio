@@ -52,6 +52,7 @@ h4 {
   font-family: "Timmana", sans-serif;
   font-size: xx-large;
   font-stretch: extra-expanded;
+  animation:glow-box 1.5s infinite ;
 }
 li {
   font-family: "PT Serif", serif

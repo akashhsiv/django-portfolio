@@ -100,6 +100,7 @@
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="3000">
@@ -124,6 +125,9 @@
                         <img src="{% static 'images/py-simplylearn.jpg' %}" class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
+                        <img src="{% static 'images/sqli.jpg' %}" class="d-block w-100" alt="..."/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
                         <img src="{% static 'images/aws.jpg' %}" class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
@@ -144,7 +148,7 @@
 </div> 
       <div class="row">
         <div class="col-md-6">
-          <div class="card card-body hobbies-card">
+          <div class="card card-body border-info">
             <h4>HOBBIES</h4>
             <hr />
             <ul>
@@ -157,7 +161,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card card-body skills-card">
+          <div class="card card-body border-danger">
             <h4>SKILLS</h4>
             <hr />
             <ul>
@@ -182,26 +186,44 @@
             <p>CODING</p>
             <p>AI</p>
             <p>BACKEND COMPUTER WORK</p>
-    
           </div>
         </div>
+         <div class="row">
         <div class="col-md-6">
+          <div class="card card-body border-primary">
+            <h4>Things I Know</h4>
+            <hr />
+            <p>Python</p>
+            <p>Sql</p>
+            <p>HTML</p>
+            <p>MS Excel</p>
+            <p>Power BI</p>
+          </div>
+        </div>
+    
+        <div class="col-md-12">
   <div class="card card-body danger">
     <h4>PROJECTS</h4>
     <div class="project">
       <h4>Portfolio Website</h4>
       <h6>
-        <strong>Description:</strong> Developed my personal portfolio website using Python and Django.<br>
-        <strong>Technologies Used:</strong> Python, Django, HTML, CSS<br>
-        <strong>Highlights:</strong> Implemented responsive design, interactive elements, and a contact form.
+        <strong>Description:</strong> 
+        <h5>my personal portfolio website using Python and Django.</h5><br>
+        <strong>Technologies Used:</strong> 
+        <h5>Python, Django, HTML, CSS</h5><br>
+        <strong>Highlights:</strong> 
+        <h5>Implemented responsive design, interactive elements, and a contact form.</h5>
       </h6>
     </div>
     <div class="project">
       <h4>E-commerce Platform</h4>
       <h6>
-        <strong>Description:</strong> Built an e-commerce platform for small businesses to list and sell their products online.<br>
-        <strong>Technologies Used:</strong> Python, FastAPI, SQLAlchemy, HTML, CSS, JavaScript<br>
-        <strong>Highlights:</strong> Implemented user authentication, product catalog, shopping cart, order management system, and pricing.
+        <strong>Description:</strong>
+        <h5>Built an e-commerce platform for small businesses to list and sell their products online.</h5> <br>
+        <strong>Technologies Used:</strong>
+        <h5> Python, FastAPI, SQLAlchemy, HTML, CSS, JavaScript.</h5> <br>
+        <strong>Highlights:</strong>
+        <h5>Implemented user authentication, product catalog, shopping cart, order management system, and pricing.</h5> 
       </h6>
     </div>
   </div>
@@ -209,7 +231,7 @@
 
         <div class="col-md-12">
           <div class="card card-body hover;">
-            <h5 class="thanks">THANKS FOR VISITING</h5>
+            <h4 class="thanks">THANKS FOR VISITING</h4>
           </div>
         </div>
       </div>
