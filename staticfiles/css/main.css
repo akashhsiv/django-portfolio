@@ -154,7 +154,7 @@ menu {
   text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease,
     text-shadow 0.3s ease;
-  padding: 20px; /* Add padding to make hover effect more noticeable */
+  padding: 5px; /* Add padding to make hover effect more noticeable */
   border-radius: 20px; /* Optional: Rounded corners for a smoother look */
 }
 
