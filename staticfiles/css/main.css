@@ -52,7 +52,7 @@ h4 {
   font-family: "Timmana", sans-serif;
   font-size: xx-large;
   font-stretch: extra-expanded;
-  animation:glow-box 1.5s infinite ;
+  animation: glow-box 1.5s infinite;
 }
 li {
   font-family: "PT Serif", serif;
@@ -64,20 +64,20 @@ strong {
 }
 ul {
   font-size: x-large;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-h5{
+h5 {
   font-size: xx-large;
 }
-h6{
+h6 {
   font-size: larger;
   font-family: monospace;
 }
 
-h7{
+h7 {
   font-size: medium;
-  
-  font-family: "Fira Code", monospace;;
+
+  font-family: "Fira Code", monospace;
 }
 
 h3 {
@@ -88,25 +88,79 @@ h3 {
 }
 
 .end-credit {
-    text-align: center;
-    font-family: "Timmana", sans-serif;
-    font-size: xx-large;
-    color: rgba(82, 78, 78, 0.678);
-    background-color: rgb(248, 245, 245);
-    padding: 20px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
+  text-align: center;
+  font-family: "Timmana", sans-serif;
+  font-size: xx-large;
+  color: rgba(82, 78, 78, 0.678);
+  background-color: rgb(248, 245, 245);
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .end-credit:hover {
-    box-shadow: 0 0 20px 10px rgba(104, 92, 92, 0.5), 
-                0 0 20px 10px rgba(122, 228, 122, 0.5), 
-                0 0 20px 10px rgba(132, 132, 160, 0.5);
-    color: rgb(209, 72, 31);
+  box-shadow: 0 0 20px 10px rgba(104, 92, 92, 0.5),
+    0 0 20px 10px rgba(122, 228, 122, 0.5),
+    0 0 20px 10px rgba(132, 132, 160, 0.5);
+  color: rgb(209, 72, 31);
 }
 
 h2.thanks {
-    font-family: "Timmana", sans-serif;
-    font-size: xx-large;
-    color: inherit; /* Inherit the color from parent */
+  font-family: "Timmana", sans-serif;
+  font-size: xx-large;
+  color: inherit; /* Inherit the color from parent */
+}
+
+menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+/* Style for primary buttons */
+.btn-primary {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  align-items: center;
+  border: 1px solid rgba(248, 245, 245, 0.11); /* Adding border for better visibility */
+}
+
+/* Style for outline primary buttons */
+.btn-outline-primary {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  border: 2px solid rgba(245, 239, 239, 0.048); /* Changed border color to black */
+  align-items: center;
+}
+
+/* Specific styles for GitHub item */
+.github-item,
+.instagram-item,
+.linkedin-item,
+.gmail-item {
+  font-weight: bold;
+  font-family: "Ubuntu Sans", sans-serif;
+  background-color: white;
+  color: black;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 20px; /* Add padding to make hover effect more noticeable */
+  border-radius: 20px; /* Optional: Rounded corners for a smoother look */
+}
+
+/* Style for the custom divider */
+.custom-divider {
+  height: 2px;
+  background-color: #926f6f; /* Adjust color as needed */
+  margin: 20px 0; /* Adjust spacing around the divider */
 }
