@@ -37,6 +37,75 @@
         text-align: center;
       }
     </style>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <title>Responsive Design Test</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        /* Mobile styles */
+        @media (max-width: 767px) {
+          body {
+            background-color: rgb(137, 141, 143);
+          }
+
+        }
+
+    
+        /* Desktop styles */
+        @media (min-width: 768px) {
+          body {
+            background-color: rgb(165, 172, 171);
+          }
+        }
+      </style>
+      
+      <style>
+        /* General styles */
+        .card-title {
+          font-size: 1.5rem;
+        }
+        .card-text {
+          font-size: 1rem;
+        }
+  
+        /* Mobile styles */
+        @media (max-width: 767px) {
+          .card {
+            margin-bottom: 1rem;
+          }
+          .card-title {
+            font-size: 1.2rem;
+          }
+          .card-text {
+            font-size: 0.9rem;
+          }
+          .jumbotron {
+            text-align: center;
+          }
+          .modal-body p {
+            font-size: 0.9rem;
+          }
+        }
+  
+        /* Desktop styles */
+        @media (min-width: 768px) {
+          .card {
+            margin-bottom: 2rem;
+          }
+          .card-title {
+            font-size: 1.5rem;
+          }
+          .card-text {
+            font-size: 1rem;
+          }
+          .jumbotron {
+            text-align: left;
+          }
+          .modal-body p {
+            font-size: 1rem;
+          }
+        }</style>
   </head>
   <body>
     <div class="container">
@@ -48,9 +117,15 @@
             <hr />
             <h4><strong>Hi, I'm Akash</strong></h4>
             <p>
-              My career began with a curiosity for coding as a backend developer. Although I hold an M.Com degree, my passion for technology led me to explore the world of programming.
-              Over the years, I've honed my skills in various programming languages and frameworks, continuously learning and adapting to new challenges. My goal is to combine my business acumen with technical expertise to create innovative solutions.
+              My career began with a curiosity for coding as a backend developer.
+
+              Although I hold an M.Com degree, my passion for technology led me to explore the world of programming.
             </p>
+            <br>
+            <p>
+              Embracing challenges drives my growth.
+            </p>
+            
           </div>
         </div>
 
@@ -80,46 +155,23 @@
               <div class="custom-divider"></div>
               
               <div class="social-links">
-                  <menu>
-                    <p>Contact Me On </p>
-                      <li class="gmail-item">
-                          <a
-                              href="www.akashhsiv@gmail.com"
-                              target="_blank"
-                              class="btn btn-primary"
-                          >
-                              <i class="fab fa-envelope"></i> Gmail
-                          </a>
-                      </li>
-                      <li class="linkedin-item">
-                          <a
-                              href="https://www.linkedin.com/in/akash-sivakumar-5394b3215/"
-                              target="_blank"
-                              class="btn btn-primary"
-                          >
-                              <i class="fab fa-linkedin"></i> LinkedIn
-                          </a>
-                      </li>
-                      <li class="github-item">
-                          <a
-                              href="https://github.com/akashhsiv"
-                              target="_blank"
-                              class="btn btn-primary"
-                          >
-                              <i class="fab fa-github"></i> GitHub
-                          </a>
-                      </li>
-                      <li class="instagram-item">
-                          <a
-                              href="https://www.instagram.com/echo._akash"
-                              target="_blank"
-                              class="btn btn-outline-primary"
-                          >
-                              <i class="fab fa-instagram"></i> Instagram
-                          </a>
-                      </li>
-                  </menu>
+                <p>Contact Me On</p>
+                <div class="d-flex justify-content-between flex-wrap">
+                  <a href="mailto:akashhsiv@gmail.com" target="_blank" class="btn btn-custom mx-2">
+                    <i class="fab fa-envelope"></i> Gmail
+                  </a>
+                  <a href="https://www.linkedin.com/in/akash-sivakumar-5394b3215/" target="_blank" class="btn btn-custom mx-2">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                  </a>
+                  <a href="https://github.com/akashhsiv" target="_blank" class="btn btn-custom mx-2">
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                  <a href="https://www.instagram.com/echo._akash" target="_blank" class="btn btn-custom mx-2">
+                    <i class="fab fa-instagram"></i> Instagram
+                  </a>
+                </div>
               </div>
+              
           </div>
       </div>
       
@@ -539,6 +591,11 @@
           <div class="col-md-12">
             <div class="card card-body end-credit">
               <h2 class="thanks">THANKS FOR VISITING</h2>
+              <p>&copy; 2023 Akash Sivakumar. All rights are unreserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
             </div>
           </div>
         </div>
