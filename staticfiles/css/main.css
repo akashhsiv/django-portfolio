@@ -1,3 +1,4 @@
+/* Profile Picture Styling */
 #profile-wrapper {
   text-align: center;
 }
@@ -10,65 +11,76 @@
   margin-right: auto;
 }
 
+/* Carousel Item Transitions */
 .carousel-item {
   transition: transform 0.3s ease;
 }
 
 .carousel-item.active {
-  transform: translateX(0); /* Adjust as needed */
+  transform: translateX(0);
 }
 
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item-right,
 .carousel-item-left {
-  transform: translateX(0); /* Adjust as needed */
+  transform: translateX(0);
 }
 
+/* Card Hover Effect */
 .card {
   transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 8px 10px 10px rgba(179, 35, 207, 0.2); /* Example shadow effect */
+  box-shadow: 8px 10px 10px rgba(179, 35, 207, 0.2);
 }
 
+/* Thanks Section Styling */
 .thanks {
-  font-size: 24px; /* Adjust as needed */
-  text-align: center; /* Center the text */
-  color: #ce4646; /* Text color */
-  text-shadow: 0 0 10px rgba(210, 245, 15, 0.8); /* Glow effect */
+  font-size: 24px;
+  text-align: center;
+  color: #ce4646;
+  text-shadow: 0 0 10px rgba(210, 245, 15, 0.8);
   transition: text-shadow 0.3s ease;
 }
 
 .thanks:hover {
-  text-shadow: 0 0 20px rgb(116, 231, 71); /* Increase glow on hover */
+  text-shadow: 0 0 20px rgb(116, 231, 71);
 }
+
+/* General Text Styles */
 p {
   font-family: "PT Serif", serif;
   font-size: large;
 }
+
 h4 {
   font-family: "Timmana", sans-serif;
   font-size: xx-large;
   font-stretch: extra-expanded;
   animation: glow-box 1.5s infinite;
 }
+
 li {
   font-family: "PT Serif", serif;
   font-size: large;
 }
+
 strong {
   font-family: "Timmana", sans-serif;
   font-size: large;
 }
+
 ul {
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
 h5 {
   font-size: xx-large;
 }
+
 h6 {
   font-size: larger;
   font-family: monospace;
@@ -76,7 +88,6 @@ h6 {
 
 h7 {
   font-size: medium;
-
   font-family: "Fira Code", monospace;
 }
 
@@ -87,6 +98,7 @@ h3 {
   color: rgb(39, 80, 6);
 }
 
+/* End Credit Section Styling */
 .end-credit {
   text-align: center;
   font-family: "Timmana", sans-serif;
@@ -105,12 +117,14 @@ h3 {
   color: rgb(209, 72, 31);
 }
 
+/* Thanks Section Heading Styling */
 h2.thanks {
   font-family: "Timmana", sans-serif;
   font-size: xx-large;
-  color: inherit; /* Inherit the color from parent */
+  color: inherit;
 }
 
+/* Social Links Styling */
 menu {
   list-style: none;
   padding: 0;
@@ -118,49 +132,111 @@ menu {
   align-items: center;
 }
 
-/* Style for primary buttons */
+/* Primary Buttons Styling */
 .btn-primary {
   background-color: white;
   color: black;
   padding: 10px;
   text-decoration: none;
   border-radius: 5px;
-  display: inline-block;
-  align-items: center;
-  border: 1px solid rgba(248, 245, 245, 0.11); /* Adding border for better visibility */
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(248, 245, 245, 0.11);
 }
 
-/* Style for outline primary buttons */
+/* Outline Primary Buttons Styling */
 .btn-outline-primary {
   background-color: white;
   color: black;
   padding: 10px;
   text-decoration: none;
   border-radius: 5px;
-  display: inline-block;
-  border: 2px solid rgba(245, 239, 239, 0.048); /* Changed border color to black */
-  align-items: center;
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: 2px solid rgba(245, 239, 239, 0.048);
 }
 
-/* Specific styles for GitHub item */
+/* Custom Button Styles */
+.btn-custom {
+  background-color: #f8f9fa;
+  color: #000;
+  border: 1px solid #ddd;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+  background-color: #414346;
+  color: #000;
+  border-color: #ccc;
+}
+
+.btn-custom:active {
+  background-color: #14191fa8;
+  border-color: #181717;
+}
+
+/* Social Links Specific Items */
 .github-item,
 .instagram-item,
 .linkedin-item,
 .gmail-item {
+  justify-content: center;
+  display: flex;
+  text-align: center;
   font-weight: bold;
   font-family: "Ubuntu Sans", sans-serif;
   background-color: white;
   color: black;
-  text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease,
     text-shadow 0.3s ease;
-  padding: 5px; /* Add padding to make hover effect more noticeable */
-  border-radius: 20px; /* Optional: Rounded corners for a smoother look */
+  padding: 5px;
+  border-radius: 20px;
 }
 
-/* Style for the custom divider */
+/* Custom Divider Styling */
 .custom-divider {
   height: 2px;
-  background-color: #926f6f; /* Adjust color as needed */
-  margin: 20px 0; /* Adjust spacing around the divider */
+  background-color: #926f6f;
+  margin: 20px 0;
+}
+
+/* Social Links Section Styling */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.social-links ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  list-style: none;
+  width: 100%;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  body {
+    background-color: rgb(101, 106, 107);
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(249, 252, 249);
+  }
 }
