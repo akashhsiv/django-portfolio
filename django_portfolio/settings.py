@@ -78,14 +78,11 @@ WSGI_APPLICATION = 'django_portfolio.wsgi.application'
 
 # settings.py
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'verceldb',     # Replace with your database name
-        'USER': 'default',     # Replace with your database user
-        'PASSWORD': 'QctBWlEwh1m2', # Replace with your database password
-        'HOST': 'ep-little-feather-a43jqja1-pooler.us-east-1.aws.neon.tech',             # Replace with your database host
-        'PORT': '5432',                  # Replace with your database port (optional)
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
