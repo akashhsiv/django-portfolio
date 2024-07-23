@@ -51,30 +51,30 @@
 
 /* General Text Styles */
 p {
-  font-family: "PT Serif", serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: large;
 }
 
 h4 {
-  font-family: "Timmana", sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: xx-large;
   font-stretch: extra-expanded;
   animation: glow-box 1.5s infinite;
 }
 
 li {
-  font-family: "PT Serif", serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: large;
 }
 
 strong {
-  font-family: "Timmana", sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: large;
 }
 
 ul {
   font-size: x-large;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Fira Sans Condensed", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h5 {
@@ -92,7 +92,7 @@ h7 {
 }
 
 h3 {
-  font-family: "Timmana", sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: xx-large;
   font-stretch: extra-expanded;
   color: rgb(39, 80, 6);
@@ -189,7 +189,7 @@ menu {
   display: flex;
   text-align: center;
   font-weight: bold;
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   background-color: white;
   color: black;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease,
