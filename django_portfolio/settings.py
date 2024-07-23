@@ -78,6 +78,7 @@ WSGI_APPLICATION = "django_portfolio.wsgi.application"
 
 # settings.py
 
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
